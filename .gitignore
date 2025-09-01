@@ -1,9 +1,13 @@
-venv
-.env
-.env.local
-.env.xcconfig
-xcuserdata
-.DS_Store
-__pycache__
-swift-frontend/build
-.venv
+# Ignore everything
+*
+
+# But do not ignore these specific files
+!agent.py
+!requirements.txt
+!readme.md
+
+# Do not ignore directories, so we can find the files
+!*/
+
+# Do not ignore the .gitignore file itself
+!.gitignore
